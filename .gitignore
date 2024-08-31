@@ -1,0 +1,37 @@
+# Ignore all files and folders related to PHPStorm
+/.idea/
+
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore environment files
+.env
+
+# Ignore compiled templates
+/storage/framework/views/
+
+# Ignore session files
+/storage/framework/sessions/
+
+# Ignore logs
+/storage/logs/
+
+# Ignore PHPMailer source if included in the project directory
+/phpmailer/
+
+# Ignore node_modules folder if you have Node.js dependencies
+/node_modules/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files created by editors
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Ignore upload directories (if any)
+public/uploads/
+uploads/
